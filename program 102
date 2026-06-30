@@ -1,0 +1,10 @@
+#a Python program to print the first and last element of a tuple.
+a=[]
+n=int(input("enter length of list:"))
+for i in range(n):
+    x=int(input("enter elements of list:"))
+    a.append(x)
+y=tuple(a)
+l=y[0]
+m=y[n-1]
+print("first elements=",l,"and","last elements=",m)  
